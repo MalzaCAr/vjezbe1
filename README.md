@@ -3,4 +3,4 @@
 ## Petar Lukavec-Šef
 ## Ivano Anđelić-član
 ## Fran Crnac -član
-##Luka Hat-član
+## Luka Hat-član
