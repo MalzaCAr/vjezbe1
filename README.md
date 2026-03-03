@@ -1,1 +1,2 @@
 # vjezbe1
+## PEEEETI NACIINNN
