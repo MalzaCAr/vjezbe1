@@ -48,16 +48,21 @@ US-02 Kao administrator, želim imati mogućnost kreiranja, uređivanja i brisan
 **Kriterij prihvaćanja:** administrator može promijeniti podatke termina ili obrisati termin, a promjene se odmah odražavaju u prikazu korisnicima. Editing je moguć 24 sati prije termina. Brisanje do roka kada je termin.
 
 **FZ-08** Sustav automatski onemogućava prijavu kada se dostigne maksimalan kapacitet termina.
+
 **Prioritet:** Srednji
+
 **Kriterij prihvaćanja:** Kada broj prijavljenih studenata dosegne maksimalni kapacitet, sustav više ne dopušta nove prijave te javlja grešku, a terminu pridodaje status "popunjen".
 
+**FZ-09** Sustav omogućuje studentu da filtrira slobodne termine ovisno o datumu i predmetu.
 
-**FZ-09** Sustav omogućuje studentu da filtrira slobodne termine ovisno o datumu i predmetu
 **Prioritet:** Nizak
+
 **Kriterij prihvaćanja:** Student može odabrati datum i/ili predmet kao kriterij filtriranja te sustav prikazuje termine koji odgovaraju kriterijima, ako postoje.
 
 **FZ-10** Sustav omogućava korisniku da vidi svoje trenutno prijavljene termine.
+
 **Prioritet:** Nizak
+
 **Kriterij prihvaćanja:** Korisnik može pristupiti pregledu svojih prijavljenih termina i osnovnih informacija termina.
 
 ## Nefunkcijski zahtjevi
