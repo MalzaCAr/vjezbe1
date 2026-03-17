@@ -134,27 +134,13 @@ Svaki zahtjev prema zaštićenim dijelovima sustava mora sadržavati valjan aute
 
 **TASK-05** Implementirati frontend sučelje za pregled termina, prikaz popunjenosti te prijavu i odjavu korisnika.
 
-## Raspodjela taskova: 
+## Raspodjela zadataka
 
-**Fran**
-- TASK-01
-- Povezani zahtjevi: FZ-01, FZ-02, FZ-05, FZ-06, FZ-08, FZ-10, NZ-03, NZ-05
-
-**Petar**
-- TASK-02
-- Povezani zahtjevi: FZ-01, FZ-02, FZ-07, NZ-01
-
-**Antun**
-- TASK-03 
-- Povezani zahtjevi: FZ-06, FZ-07, FZ-10, NZ-04, NZ-06
-
-**Ivano**
-- TASK-05 
-- Povezani zahtjevi: FZ-03, FZ-04, FZ-05, FZ-08, FZ-09, FZ-10, NZ-01
-
-**Luka**
-- TASK-04  
-- Povezani zahtjevi: FZ-01, FZ-03, FZ-04, FZ-05, FZ-06, FZ-07, FZ-08, FZ-10, NZ-02, NZ-03, NZ-04
+Antun: FZ-01, FZ-02, NZ-01, TASK-01  
+Fran: FZ-03, FZ-04, NZ-02, TASK-02  
+Luka: FZ-05, FZ-06, NZ-03, TASK-03  
+Petar: FZ-07, FZ-08, NZ-04, TASK-04  
+Ivano: FZ-09, FZ-10, NZ-05, NZ-06, TASK-05  
 
 
 
