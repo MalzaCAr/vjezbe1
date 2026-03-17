@@ -136,11 +136,11 @@ Svaki zahtjev prema zaštićenim dijelovima sustava mora sadržavati valjan aute
 
 ## Raspodjela taskova: 
 
-Fran: TASK-O2
-Luka: TASK-05
-Antun: TASK-04
-Ivano: TASK-01
-Petar: TASK-03
+- Fran: TASK-O2
+- Luka: TASK-05
+- Antun: TASK-04
+- Ivano: TASK-01
+- Petar: TASK-03
 
 
 
