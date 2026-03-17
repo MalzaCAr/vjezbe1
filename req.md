@@ -134,7 +134,13 @@ Svaki zahtjev prema zaštićenim dijelovima sustava mora sadržavati valjan aute
 
 **TASK-05** Implementirati frontend sučelje za pregled termina, prikaz popunjenosti te prijavu i odjavu korisnika.
 
+## Raspodjela taskova: 
 
+Fran: TASK-O2
+Luka: TASK-05
+Antun: TASK-04
+Ivano: TASK-01
+Petar: TASK-03
 
 
 
