@@ -136,11 +136,25 @@ Svaki zahtjev prema zaštićenim dijelovima sustava mora sadržavati valjan aute
 
 ## Raspodjela taskova: 
 
-- Fran: TASK-O2
-- Luka: TASK-05
-- Antun: TASK-04
-- Ivano: TASK-01
-- Petar: TASK-03
+**Fran**
+- TASK-01
+- Povezani zahtjevi: FZ-01, FZ-02, FZ-05, FZ-06, FZ-08, FZ-10, NZ-03, NZ-05
+
+**Petar**
+- TASK-02
+- Povezani zahtjevi: FZ-01, FZ-02, FZ-07, NZ-01
+
+**Antun**
+- TASK-03 
+- Povezani zahtjevi: FZ-06, FZ-07, FZ-10, NZ-04, NZ-06
+
+**Ivano**
+- TASK-05 
+- Povezani zahtjevi: FZ-03, FZ-04, FZ-05, FZ-08, FZ-09, FZ-10, NZ-01
+
+**Luka**
+- TASK-04  
+- Povezani zahtjevi: FZ-01, FZ-03, FZ-04, FZ-05, FZ-06, FZ-07, FZ-08, FZ-10, NZ-02, NZ-03, NZ-04
 
 
 
