@@ -122,8 +122,20 @@ Svaki zahtjev prema zaštićenim dijelovima sustava mora sadržavati valjan aute
 
 
 ##Taskovi
-TASK-01 Dizajnirati bazu podataka za termine i prijave (entiteti: korisnik, termin, prijava, kapacitet).
+**TASK-01** Dizajnirati bazu podataka za termine i prijave (entiteti: korisnik, termin, prijava, kapacitet).
 
-TASK-02 Implementirati backend API za kreiranje, uređivanje i brisanje termina (CRUD operacije za administratora).
+**TASK-02** Implementirati backend API za kreiranje, uređivanje i brisanje termina (CRUD operacije za administratora).
 
-TASK-03 Implementirati autentifikaciju korisnika i autorizaciju pristupa (razlikovanje administratora i studenta).
+**TASK-03** Implementirati autentifikaciju korisnika i autorizaciju pristupa (razlikovanje administratora i studenta).
+
+**TASK-04** Napisati i provesti testove za kreiranje i uređivanje termina, prikaz popunjenosti, prijavu i odjavu korisnika,
+  zabranu prijave na popunjen termin, zabranu duple prijave, prikaz prijavljenih korisnika i brisanje termina.
+
+
+
+
+
+
+
+
+
