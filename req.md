@@ -121,7 +121,8 @@ Sustav mora biti implementiran kao mikroservisna aplikacija, a pristup zaštiće
 Svaki zahtjev prema zaštićenim dijelovima sustava mora sadržavati valjan autentifikacijski token; zahtjevi bez tokena ili s nevažećim tokenom moraju biti odbijeni.
 
 
-##Taskovi
+**##Taskovi**
+
 **TASK-01** Dizajnirati bazu podataka za termine i prijave (entiteti: korisnik, termin, prijava, kapacitet).
 
 **TASK-02** Implementirati backend API za kreiranje, uređivanje i brisanje termina (CRUD operacije za administratora).
