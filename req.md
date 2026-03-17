@@ -13,7 +13,7 @@
 ## User storyji
 
 ### User story 1
-...
+Kao student, želim vidjeti sve detalje za pojedini labaratorij kao što su koji ih profesor drži, koliko ECTS bodova donosi, koliko se studenata prijavilo na labaratorij i koji je raspored/kada se održava.
 
 ### User story 2
 ...
