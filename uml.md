@@ -31,4 +31,7 @@ Ovaj sequence dijagram prikazuje jedan konkretan scenarij: student se prijavljuj
 Sudionici u scenariju su Student, Korisničko sučelje, Sustav i Baza podataka.
 Student preko sučelja šalje zahtjev za prijavu. Sustav provjerava podatke o terminu i broj slobodnih mjesta. Ako termin ima slobodnih mjesta, prijava se sprema u bazu i student dobiva potvrdu. Ako nema slobodnih mjesta, sustav vraća poruku o grešci.
 
+<img width="788" height="622" alt="sequnce" src="https://github.com/user-attachments/assets/331b380a-98e1-4bd9-95de-136d83cd0518" />
+
+
 <!-- napravili Luka Hat i Antun Abičić --> 
