@@ -1,3 +1,5 @@
+
+## Sequence dijagram
 @startuml
 actor Student
 participant "Korisničko sučelje" as UI
@@ -27,6 +29,8 @@ end
  
 @enduml
 
+
+## Kratki opis sequence dijagrama
 Ovaj sequence dijagram prikazuje jedan konkretan scenarij: student se prijavljuje na odabrani termin konzultacija ili laboratorija.
 Sudionici u scenariju su Student, Korisničko sučelje, Sustav i Baza podataka.
 Student preko sučelja šalje zahtjev za prijavu. Sustav provjerava podatke o terminu i broj slobodnih mjesta. Ako termin ima slobodnih mjesta, prijava se sprema u bazu i student dobiva potvrdu. Ako nema slobodnih mjesta, sustav vraća poruku o grešci.
