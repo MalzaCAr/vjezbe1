@@ -32,12 +32,12 @@ end
 
 @enduml
 
+```
 
 ## Kratki opis sequence dijagrama
 Ovaj sequence dijagram prikazuje jedan konkretan scenarij: student se prijavljuje na odabrani termin konzultacija ili laboratorija.
 Sudionici u scenariju su Student, Korisničko sučelje, Sustav i Baza podataka.
 Student preko sučelja šalje zahtjev za prijavu. Sustav provjerava podatke o terminu i broj slobodnih mjesta. Ako termin ima slobodnih mjesta, prijava se sprema u bazu i student dobiva potvrdu. Ako nema slobodnih mjesta, sustav vraća poruku o grešci.
-```
 
 ## Slika sequence dijagrama
 <img width="788" height="622" alt="sequnce" src="https://github.com/user-attachments/assets/331b380a-98e1-4bd9-95de-136d83cd0518" />
