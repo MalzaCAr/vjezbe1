@@ -40,7 +40,7 @@ Student preko sučelja šalje zahtjev za prijavu. Sustav provjerava podatke o te
 <img width="788" height="622" alt="sequnce" src="https://github.com/user-attachments/assets/331b380a-98e1-4bd9-95de-136d83cd0518" />
 <!-- napravio Petar Lukavec --> 
 # Class diagram
-
+```
 @startuml
 skinparam classAttributeIconSize 0
 skinparam linetype ortho
@@ -201,6 +201,6 @@ BackupService ..> Prijava
 BackupService ..> Korisnik
 
 @enduml
-
+```
 ## Kratki opis class diagrama
 Ovaj model opisuje strukturu sustava za upravljanje terminima konzultacija i laboratorija te prikazuje glavne klase, korisničke uloge i servisne komponente. Apstraktna klasa `Korisnik` predstavlja zajedničke podatke svih korisnika, dok su `Student` i `Administrator` njezine specijalizacije s različitim odgovornostima. Klasa `Termin` opisuje pojedini termin, a `Prijava` povezuje studenta i termin te omogućuje evidenciju prijava i odjava. Dodatne klase `Predmet` i `Lokacija` služe za organizaciju termina po kolegiju i prostoru održavanja. Klase `Obavijest` i `AuditLog` podržavaju slanje email obavijesti te zapisivanje važnih događaja u sustavu. Veze među klasama prikazuju logične odnose između korisnika, termina i prijava, kao i ovisnosti između domenskih i servisnih komponenti. Po potrebi se model može dodatno proširiti zasebnom klasom za upravljanje sigurnošću lozinki, čime bi se osjetljivi podaci odvojili od osnovnih korisničkih podataka. 
