@@ -216,6 +216,7 @@ Ovaj model opisuje strukturu sustava za upravljanje terminima konzultacija i lab
 
 # USE-CASE Dijagram
 
+```plantuml
 @startuml
 
 left to right direction
@@ -240,7 +241,6 @@ rectangle "Sustav za termine konzultacija i laboratorija" {
   (Termin popunjen) as EX1
   (Već prijavljen) as EX2
 
-
   Student -- UC1
   Student -- UC2
   Student -- UC3
@@ -258,9 +258,11 @@ rectangle "Sustav za termine konzultacija i laboratorija" {
   UC8 .> UC1 : <<include>>
   UC9 .> UC1 : <<include>>
   UC10 .> UC1 : <<include>> 
+
   EX1 .> UC4 : <<extend>>
   EX2 .> UC4 : <<extend>>
 
 }
 
 @enduml
+```
