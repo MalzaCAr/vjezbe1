@@ -25,7 +25,7 @@ else Korisnik je autentificiran
         SYS --> UI : Poruka "Nema slobodnih mjesta"
         UI --> Student : Prikaz greške
     end
-end
+
  
 @enduml
 
