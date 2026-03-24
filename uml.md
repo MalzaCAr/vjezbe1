@@ -242,3 +242,54 @@ BackupService ..> Korisnik
 ```
 ## Kratki opis class diagrama
 Ovaj model opisuje strukturu sustava za upravljanje terminima konzultacija i laboratorija te prikazuje glavne klase, korisničke uloge i servisne komponente. Apstraktna klasa `Korisnik` predstavlja zajedničke podatke svih korisnika, dok su `Student` i `Administrator` njezine specijalizacije s različitim odgovornostima. Klasa `Termin` opisuje pojedini termin, a `Prijava` povezuje studenta i termin te omogućuje evidenciju prijava i odjava. Dodatne klase `Predmet` i `Lokacija` služe za organizaciju termina po kolegiju i prostoru održavanja. Klase `Obavijest` i `AuditLog` podržavaju slanje email obavijesti te zapisivanje važnih događaja u sustavu. Veze među klasama prikazuju logične odnose između korisnika, termina i prijava, kao i ovisnosti između domenskih i servisnih komponenti. Po potrebi se model može dodatno proširiti zasebnom klasom za upravljanje sigurnošću lozinki, čime bi se osjetljivi podaci odvojili od osnovnih korisničkih podataka. 
+
+# USE-CASE Dijagram
+
+@startuml
+
+left to right direction
+
+actor Student
+actor Administrator
+
+rectangle "Sustav za termine konzultacija i laboratorija" {
+
+  (Pregled termina) as UC1
+  (Pregled detalja laboratorija) as UC2
+  (Filtriranje termina) as UC3
+  (Prijava na termin) as UC4
+  (Odjava s termina) as UC5
+  (Pregled vlastitih prijava) as UC6
+
+  (Kreiranje termina) as UC7
+  (Uređivanje termina) as UC8
+  (Brisanje termina) as UC9
+  (Pregled prijava) as UC10
+
+  (Termin popunjen) as EX1
+  (Već prijavljen) as EX2
+
+
+  Student -- UC1
+  Student -- UC2
+  Student -- UC3
+  Student -- UC4
+  Student -- UC5
+  Student -- UC6
+
+  Administrator -- UC7
+  Administrator -- UC8
+  Administrator -- UC9
+  Administrator -- UC10
+
+  UC3 .> UC1 : <<include>>
+  UC4 .> UC1 : <<include>>
+  UC8 .> UC1 : <<include>>
+  UC9 .> UC1 : <<include>>
+  UC10 .> UC1 : <<include>> 
+  EX1 .> UC4 : <<extend>>
+  EX2 .> UC4 : <<extend>>
+
+}
+
+@enduml
