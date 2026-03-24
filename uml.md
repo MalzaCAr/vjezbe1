@@ -1,5 +1,5 @@
 <!-- napravili Luka Hat i Antun Abičić --> 
-#SEQUENCE
+# SEQUENCE
 
 ### PlantUML kod
 ```plantuml
