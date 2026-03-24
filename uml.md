@@ -1,5 +1,6 @@
 <!-- napravili Luka Hat i Antun Abičić --> 
 # Sequence dijagram
+
 @startuml
 actor Student
 participant "Korisničko sučelje" as UI
@@ -26,8 +27,7 @@ else Korisnik je autentificiran
         UI --> Student : Prikaz greške
     end
 
- 
-@enduml
+ @enduml
 
 
 ## Kratki opis sequence dijagrama
