@@ -27,4 +27,4 @@ end
  
 @enduml
 
-#napravili Luka Hat i Antun Abičić 
+<!-- napravili Luka Hat i Antun Abičić --> 
