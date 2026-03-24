@@ -43,9 +43,9 @@ Student preko sučelja šalje zahtjev za prijavu. Sustav provjerava podatke o te
 <img width="788" height="622" alt="sequnce" src="https://github.com/user-attachments/assets/331b380a-98e1-4bd9-95de-136d83cd0518" />
 
 <!-- napravio Petar Lukavec --> 
-# Class diagram
+# Class dijagram
 
-PlantUML kod za class diagram:
+PlantUML kod za class dijagram:
 
 ```plantuml
 @startuml
@@ -267,7 +267,7 @@ rectangle "Sustav za termine konzultacija i laboratorija" {
 @enduml
 ```
 
-## Opis modela
+## Opis dijagrama
 
 Ovaj Use Case dijagram prikazuje funkcionalnosti sustava za upravljanje terminima konzultacija i laboratorija te interakciju dvaju aktera: studenta i administratora. Student može pregledavati termine, vidjeti detalje, filtrirati ih te se prijavljivati i odjavljivati, dok administrator može kreirati, uređivati i brisati termine te pregledavati prijave.
 
