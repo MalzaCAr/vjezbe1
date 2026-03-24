@@ -266,3 +266,11 @@ rectangle "Sustav za termine konzultacija i laboratorija" {
 
 @enduml
 ```
+
+## Opis modela
+
+Ovaj Use Case dijagram prikazuje funkcionalnosti sustava za upravljanje terminima konzultacija i laboratorija te interakciju dvaju aktera: studenta i administratora. Student može pregledavati termine, vidjeti detalje, filtrirati ih te se prijavljivati i odjavljivati, dok administrator može kreirati, uređivati i brisati termine te pregledavati prijave.
+
+Odnosi <<include>> označavaju obavezne podkorake, pa tako više funkcionalnosti uključuje pregled termina jer je za njih potrebno prvo odabrati termin. Odnosi <<extend>> prikazuju iznimne situacije koje se mogu dogoditi prilikom prijave, kao što su pokušaj prijave na popunjen termin ili dupla prijava.
+
+Dijagram time jasno prikazuje glavne funkcionalnosti sustava, uloge korisnika i osnovne scenarije korištenja zajedno s mogućim iznimkama.
