@@ -47,9 +47,6 @@ skinparam linetype ortho
 
 title Class Diagram - Sustav za termine konzultacija i laboratorija
 
-'========================
-' ENUMI
-'========================
 enum VrstaTermina {
   KONZULTACIJE
   LABORATORIJ
@@ -68,9 +65,6 @@ enum StatusPrijave {
   ODBIJENA
 }
 
-'========================
-' KORISNICI
-'========================
 abstract class Korisnik {
   - korisnikId: Long
   - ime: String
@@ -100,9 +94,6 @@ class Administrator {
 Korisnik <|-- Student
 Korisnik <|-- Administrator
 
-'========================
-' DOMENSKE KLASE
-'========================
 class Predmet {
   - predmetId: Long
   - naziv: String
@@ -153,9 +144,6 @@ class AuditLog {
   - uspjesno: boolean
 }
 
-'========================
-' SERVISI
-'========================
 class AuthService {
   + login(email: String, lozinka: String): String
   + validirajToken(token: String): boolean
@@ -187,9 +175,6 @@ class NotificationService {
   + posaljiEmail(korisnik: Korisnik, obavijest: Obavijest): void
 }
 
-'========================
-' VEZE DOMENE
-'========================
 Student "1" -- "0..*" Prijava : ima >
 Termin "1" -- "0..*" Prijava : sadrzi >
 Prijava "1" --> "1" Student : pripada
@@ -202,9 +187,6 @@ Administrator "1" -- "0..*" Termin : upravlja >
 Korisnik "1" -- "0..*" Obavijest : prima >
 Korisnik "1" -- "0..*" AuditLog : ima >
 
-'========================
-' VEZE SERVISA
-'========================
 AuthService ..> Korisnik
 TerminService ..> Termin
 TerminService ..> Predmet
