@@ -43,7 +43,7 @@ Student preko sučelja šalje zahtjev za prijavu. Sustav provjerava podatke o te
 <img width="788" height="622" alt="sequnce" src="https://github.com/user-attachments/assets/331b380a-98e1-4bd9-95de-136d83cd0518" />
 
 <!-- napravio Petar Lukavec --> 
-## Class diagram
+# Class diagram
 
 PlantUML kod za class diagram:
 
